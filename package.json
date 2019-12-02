@@ -1,0 +1,23 @@
+{
+  "name": "fibarointercomdoor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "openDoor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcroiseaux/fibaroIntercomDoor.git"
+  },
+  "author": "Fabrice CROISEAUX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fcroiseaux/fibaroIntercomDoor/issues"
+  },
+  "homepage": "https://github.com/fcroiseaux/fibaroIntercomDoor#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ws": "^7.2.0"
+  }
+}
