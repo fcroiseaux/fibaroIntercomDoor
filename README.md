@@ -11,11 +11,11 @@ You must create a .env file with the following informations
 
 Since the script need th 'ws' and 'dotenv' packages, you must install theem :
 
-    npm install --save dotenv
-    npm install ws
+    yarn install --save dotenv
+    yarn install ws
 
 To run the script :
-`node openDoor.js`
+`node lib/openDoor.js`
 
 Or with pm2
-`pm2 start openDoor.js`
+`pm2 start lib/openDoor.js`
