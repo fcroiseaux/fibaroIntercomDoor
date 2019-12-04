@@ -1,3 +1,5 @@
+// @flow
+
 const http = require('http');
 const WebSocket = require('ws')
 const dotenv = require('dotenv').config();
@@ -7,6 +9,7 @@ const port = 3000;
 const INTERCOM_IP = process.env.INTERCOM_IP;
 const INTERCOM_USER = process.env.INTERCOM_USER;
 const INTERCOM_PASSWD = process.env.INTERCOM_PASSWD;
+var GLOBAL_TOKEN = '';
 
 const myFibaroWS = 'wss://' + INTERCOM_IP + ':8081/wsock';
 

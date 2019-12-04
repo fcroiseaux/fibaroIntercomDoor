@@ -14,6 +14,9 @@ Since the script need th 'ws' and 'dotenv' packages, you must install theem :
     yarn install --save dotenv
     yarn install ws
 
+to compile with flow just run yarn :
+`yarn`
+
 To run the script :
 `node lib/openDoor.js`
 
