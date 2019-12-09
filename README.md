@@ -1,4 +1,4 @@
-#SCRIPT TO OPEN FIBARO INTERCOM DOOR
+# SCRIPT TO OPEN FIBARO INTERCOM DOOR
 
 This script starts a http server.
 Each GET on / executes a script that opens one of the door connected to your Fibaro Intercom.
