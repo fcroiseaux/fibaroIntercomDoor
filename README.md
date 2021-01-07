@@ -1,4 +1,4 @@
-#SCRIPT TO OPEN FIBARO INTERCOM DOOR
+# SCRIPT TO OPEN FIBARO INTERCOM DOOR
 
 This script starts a http server.
 Each GET on / executes a script that opens one of the door connected to your Fibaro Intercom.
@@ -9,12 +9,12 @@ You must create a .env file with the following informations
     INTERCOM_USER = your_intercom_local_username
     INTERCOM_PASSWD = your_intercom_local_password
 
-Since the script need th 'ws' and 'dotenv' packages, you must install theem :
+Since the script need th 'ws' and 'dotenv' packages, you must install them :
 
     yarn install --save dotenv
     yarn install ws
 
-to compile with flow just run yarn :
+to compile with flow, run yarn :
 `yarn`
 
 To run the script :
